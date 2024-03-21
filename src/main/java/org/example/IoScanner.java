@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class IoScanner {
-    public static void main(String[] args) {
+    public static void ioScanner(String[] args) {
 //        scanner();
         simpleInputInt();
     }

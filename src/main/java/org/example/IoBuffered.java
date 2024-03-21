@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class IoBuffered {
-    public static void main(String[] args) throws IOException{
+    public static void IoBuffered(String[] args) throws IOException{
         buffered();
     }
     public static void buffered() throws IOException {

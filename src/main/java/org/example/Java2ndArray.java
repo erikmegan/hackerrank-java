@@ -14,7 +14,7 @@ public class Java2ndArray {
 
     // https://www.hackerrank.com/challenges/java-2d-array/problem
 
-    public static void main(String[] args) throws IOException {
+    public static void j2ndArr(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         List<List<Integer>> arr = new ArrayList<>();
