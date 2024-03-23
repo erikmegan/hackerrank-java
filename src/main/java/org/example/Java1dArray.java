@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Java1dArray {
@@ -18,7 +19,6 @@ public class Java1dArray {
             for (int i = 0; i < n; i++) {
                 game[i] = scan.nextInt();
             }
-
             System.out.println( (canWin(leap, game)) ? "YES" : "NO" );
         }
         scan.close();
