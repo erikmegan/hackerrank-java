@@ -10,4 +10,35 @@ public class IsPalindrome {
         }
         return true;
     }
+
+    public static boolean isPalindrome2(String palindrome){
+        int panjang = palindrome.length();
+        boolean isEven = panjang % 2 == 0;
+
+        int x = 0;
+        int y = palindrome.length()-1;
+
+        if(isEven){
+            int mid = panjang/2;
+            while (x < mid){
+                if(palindrome.charAt(x) != palindrome.charAt(y)){
+                    return false;
+                }
+                x++;
+                y--;
+            }
+        }else{
+            while(x != y)
+            {
+                System.out.println(x);
+                if (palindrome.charAt(x) != palindrome.charAt(y)) {
+                    return false;
+                }
+
+                x++;
+                y--;
+            }
+        }
+        return true;
+    }
 }

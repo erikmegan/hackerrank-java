@@ -2,6 +2,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.example.IsPalindrome.isPalindrome;
+import static org.example.IsPalindrome.isPalindrome2;
 
 public class IsPalindromeTest {
 
@@ -10,6 +11,7 @@ public class IsPalindromeTest {
         String s = "asda";
 
         Assertions.assertFalse(isPalindrome(s));
+        Assertions.assertFalse(isPalindrome2(s));
     }
 
     @Test
@@ -17,5 +19,6 @@ public class IsPalindromeTest {
         String s = "adada";
 
         Assertions.assertTrue(isPalindrome(s));
+        Assertions.assertTrue(isPalindrome2(s));
     }
 }
